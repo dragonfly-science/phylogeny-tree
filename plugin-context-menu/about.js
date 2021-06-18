@@ -10,4 +10,4 @@ function createAboutLink() {
   return anchorElement;
 }
 
-export default [ createAboutLink() ];
+export default createAboutLink ;

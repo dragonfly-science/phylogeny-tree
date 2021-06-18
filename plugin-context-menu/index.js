@@ -4,7 +4,7 @@ import closeMenu from './closeMenu';
 import mergeMenuItems from './mergeMenuItems';
 import openMenu from './openMenu';
 
-import { treeMenuItems, nodeMenuItems } from './menuItems';
+import { createTreeMenuItems, createNodeMenuItems } from './menuItems';
 import defaults from './defaults';
 
 export default function (tree, decorate) {
@@ -31,8 +31,8 @@ export default function (tree, decorate) {
     tree.contextMenu.el.className = 'phylocanvas-context-menu';
     tree.contextMenu.parent.appendChild(tree.contextMenu.el);
 
-    tree.contextMenu.treeMenuItems = mergeMenuItems(treeMenuItems, contextMenu.treeMenuItems);
-    tree.contextMenu.nodeMenuItems = mergeMenuItems(nodeMenuItems, contextMenu.nodeMenuItems);
+    tree.contextMenu.treeMenuItems = mergeMenuItems(createTreeMenuItems(), contextMenu.treeMenuItems);
+    tree.contextMenu.nodeMenuItems = mergeMenuItems(createNodeMenuItems(), contextMenu.nodeMenuItems);
     tree.contextMenu.filenames = { ...defaults.filenames, ...contextMenu.filenames };
 
     tree.contextMenu.open = openMenu.bind(null, tree);

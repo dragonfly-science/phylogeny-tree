@@ -4,7 +4,9 @@
       "@babel/preset-env",
       {
         "targets": {
-          "ie": "11"      
+          "chrome": "70",
+          "safari": "13.1.2",
+          "esmodules": true
         }
       }
     ]

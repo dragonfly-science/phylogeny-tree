@@ -24,7 +24,7 @@ module.exports = {
     publicPath: '/dist/',
     path: path.resolve('dist'),
     filename: 'index.js',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs2',
   },
   target: 'web',
 };

@@ -2,13 +2,13 @@
   "name": "@mkoliba/phylocanvas",
   "version": "3.18.0-beta.1",
   "description": "Phylogenetic tree visualisation for the web.",
-  "main": "dist/phylocanvas.js",
+  "main": "dist/index.js",
   "repository": {
     "url": "https://github.com/mkoliba/phylocanvas3",
     "type": "git"
   },
   "scripts": {
-    "build": "webpack --config=../webpack.config.js --output-filename=phylocanvas.js --output-library=Phylocanvas",
+    "build": "webpack --config=../webpack.config.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "The Centre for Genomic Pathogen Surveillance",

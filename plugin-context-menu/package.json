@@ -2,9 +2,9 @@
   "name": "@mkoliba/phylocanvas-plugin-context-menu",
   "version": "3.18.0-beta.1",
   "description": "",
-  "main": "dist/phylocanvas-plugin-context-menu.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config='../webpack.config.js' --output-filename=phylocanvas-plugin-context-menu.js --output-library=PhylocanvasPluginContextMenu",
+    "build": "webpack --config='../webpack.config.js' ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

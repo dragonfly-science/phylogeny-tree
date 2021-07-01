@@ -2,9 +2,9 @@
   "name": "@mkoliba/phylocanvas-plugin-interactions",
   "version": "3.18.0-beta.1",
   "description": "",
-  "main": "dist/phylocanvas-plugin-interactions.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config='../webpack.config.js' --output-filename=phylocanvas-plugin-interactions.js --output-library=PhylocanvasPluginInteractions",
+    "build": "webpack --config='../webpack.config.js' ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,10 +1,12 @@
 {
   "name": "@mkoliba/phylocanvas",
-  "version": "3.18.0",
+  "version": "3.18.0-beta.1",
   "description": "Phylogenetic tree visualisation for the web.",
   "main": "dist/phylocanvas.js",
-  "repository": { "url": "https://github.com/mkoliba/phylocanvas3",
-    "type": "git" },
+  "repository": {
+    "url": "https://github.com/mkoliba/phylocanvas3",
+    "type": "git"
+  },
   "scripts": {
     "build": "webpack --config=../webpack.config.js --output-filename=phylocanvas.js --output-library=Phylocanvas",
     "test": "echo \"Error: no test specified\" && exit 1"

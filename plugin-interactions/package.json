@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylocanvas-plugin-interactions",
-  "version": "3.18.0",
+  "version": "3.18.0-beta.1",
   "description": "",
   "main": "dist/phylocanvas-plugin-interactions.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylocanvas": "^3.18.0",
+    "@mkoliba/phylocanvas": "^3.18.0-beta.1",
     "@thesoulfresh/pan-zoom": "https://github.com/soulfresh/pan-zoom#release/4.1.4"
   },
   "publishConfig": {

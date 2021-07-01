@@ -33,8 +33,8 @@ const tree = createTree(
       Human: { shape: 'triangle', fillStyle: 'green' },
       Gibbon: { shape: 'star', fillStyle: 'blue' },
       Bovine: { shape: 'hexagon', fillStyle: 'orange' },
-      Chimp: { shape: 'hexastar', fillStyle: 'grey' },
-      Orangutan: { shape: 'octastar', fillStyle: 'indigo' },
+      Chimp: { shape: 'square', fillStyle: 'grey' },
+      Orangutan: { shape: 'star', fillStyle: 'indigo' },
     },
     annotations: [
       {

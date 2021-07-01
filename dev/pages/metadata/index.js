@@ -6,7 +6,7 @@ import createTree from '@mkoliba/phylocanvas/createTree';
 import { TreeTypes } from '@mkoliba/phylocanvas/constants';
 
 import logPlugin from '../../plugins/log';
-import drawStepsPlugin from '../../plugins/draw-steps';
+
 import metadataPlugin from '@mkoliba/phylocanvas-plugin-metadata/index';
 import interactionsPlugin from '@mkoliba/phylocanvas-plugin-interactions/index';
 import contextMenuPlugin from '@mkoliba/phylocanvas-plugin-context-menu/index';

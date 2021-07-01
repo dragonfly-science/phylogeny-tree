@@ -57,6 +57,7 @@ export default function (tree, decorate) {
                 maxLabel = data.label;
               }
             } else {
+              // eslint-disable-next-line no-console
               console.error('Invalid metadata label for node ', node.id, ' column ', columnName);
             }
           }
@@ -252,7 +253,7 @@ export default function (tree, decorate) {
     const typeDef = types[tree.state.type];
     const layout = tree.layout();
 
-    // these measurments are on the canvas plane therefore they need not to be mapped
+    // these measurements are on the canvas plane therefore they need not to be mapped
     const blockLength = tree.state.metadata.blockLength;
     const blockPadding = tree.state.metadata.blockPadding;
     const headerWidths = layout.metadata.headerWidths;

@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylocanvas",
-  "version": "3.18.0-beta.1",
+  "version": "3.18.0-beta.2",
   "description": "Phylogenetic tree visualisation for the web.",
   "main": "dist/index.js",
   "repository": {

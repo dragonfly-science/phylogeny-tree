@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylocanvas-plugin-deferred-render",
-  "version": "3.18.0-beta.1",
+  "version": "3.18.0-beta.2",
   "description": "Phylocanvas plugin to defer tree rendering",
   "main": "dist/phylocanvas-plugin-deferred-render.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylocanvas": "^3.18.0-beta.1"
+    "@mkoliba/phylocanvas": "^3.18.0-beta.2"
   },
   "publishConfig": {
     "access": "public"

@@ -1,4 +1,4 @@
-import { utils } from '@cgps/phylocanvas';
+import { utils } from '@mkoliba/phylocanvas';
 
 export default function (tree) {
   const { scalebar } = tree.state;

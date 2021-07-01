@@ -1,4 +1,4 @@
-import { utils } from '@cgps/phylocanvas';
+import { utils } from '@mkoliba/phylocanvas';
 
 import closeMenu from './closeMenu';
 import mergeMenuItems from './mergeMenuItems';

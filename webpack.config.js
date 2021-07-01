@@ -4,7 +4,7 @@ const babelrc = require('./babelrc.json');
 module.exports = {
   devtool: 'source-map',
   entry: './index',
-  externals: [ '@cgps/phylocanvas', /^@cgps\/phylocanvas\/.+$/ ],
+  externals: [ '@mkoliba/phylocanvas', /^@mkoliba\/phylocanvas\/.+$/ ],
   module: {
     rules: [
       {

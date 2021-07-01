@@ -1,17 +1,17 @@
 // require('../polyfill');
-import '@cgps/phylocanvas-plugin-interactions/styles.css';
-import '@cgps/phylocanvas-plugin-context-menu/styles.css';
+import '@mkoliba/phylocanvas-plugin-interactions/styles.css';
+import '@mkoliba/phylocanvas-plugin-context-menu/styles.css';
 
-import { TreeTypes } from '@cgps/phylocanvas/constants';
-// import parse from '@cgps/phylocanvas/parse';
-import createTree from '@cgps/phylocanvas/createTree';
+import { TreeTypes } from '@mkoliba/phylocanvas/constants';
+// import parse from '@mkoliba/phylocanvas/parse';
+import createTree from '@mkoliba/phylocanvas/createTree';
 
 import logPlugin from '../plugins/log';
 import drawStepsPlugin from '../plugins/draw-steps';
-import interactionsPlugin from '@cgps/phylocanvas-plugin-interactions/index';
-import contextMenuPlugin from '@cgps/phylocanvas-plugin-context-menu/index';
-import svgExportPlugin from '@cgps/phylocanvas-plugin-svg-export/index';
-import scaleBarPlugin from '@cgps/phylocanvas-plugin-scalebar/index';
+import interactionsPlugin from '@mkoliba/phylocanvas-plugin-interactions/index';
+import contextMenuPlugin from '@mkoliba/phylocanvas-plugin-context-menu/index';
+import svgExportPlugin from '@mkoliba/phylocanvas-plugin-svg-export/index';
+import scaleBarPlugin from '@mkoliba/phylocanvas-plugin-scalebar/index';
 
 const newick =
   '(Bovine:0.69395,(Gibbon:0.36079,(Orangutan:0.33636,(Gorilla:0.17147,(Chimp:0.19268,Human:0.11927):0.08386):0.06124):0.15057):0.54939,Mouse:1.21460);';

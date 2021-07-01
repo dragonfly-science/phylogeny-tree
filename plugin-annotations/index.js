@@ -1,4 +1,4 @@
-import { constants } from '@cgps/phylocanvas';
+import { constants } from '@mkoliba/phylocanvas';
 const { Angles } = constants;
 
 export default function (tree, decorate) {

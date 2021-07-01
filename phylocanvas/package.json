@@ -1,5 +1,5 @@
 {
-  "name": "@cgps/phylocanvas",
+  "name": "@mkoliba/phylocanvas",
   "version": "3.18.0",
   "description": "Phylogenetic tree visualisation for the web.",
   "main": "dist/phylocanvas.js",

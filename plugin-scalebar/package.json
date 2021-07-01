@@ -1,5 +1,5 @@
 {
-  "name": "@cgps/phylocanvas-plugin-scalebar",
+  "name": "@mkoliba/phylocanvas-plugin-scalebar",
   "version": "3.18.0",
   "description": "",
   "main": "dist/phylocanvas-plugin-scalebar.js",
@@ -11,7 +11,7 @@
   "author": "The Centre for Genomic Pathogen Surveillance",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@cgps/phylocanvas": "^3.18.0"
+    "@mkoliba/phylocanvas": "^3.18.0"
   },
   "publishConfig": {
     "access": "public"

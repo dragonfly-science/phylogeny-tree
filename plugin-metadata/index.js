@@ -1,6 +1,6 @@
 /* eslint default-case: 0 */
 
-import { constants, types, utils } from '@cgps/phylocanvas';
+import { constants, types, utils } from '@mkoliba/phylocanvas';
 import defaults from './defaults';
 const { mapScalar } = utils;
 

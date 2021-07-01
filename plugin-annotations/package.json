@@ -1,5 +1,5 @@
 {
-  "name": "@cgps/phylocanvas-plugin-annotations",
+  "name": "@mkoliba/phylocanvas-plugin-annotations",
   "version": "3.18.0",
   "description": "",
   "main": "dist/phylocanvas-plugin-annotations.js",
@@ -11,7 +11,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@cgps/phylocanvas": "^3.18.0"
+    "@mkoliba/phylocanvas": "^3.18.0"
   },
   "publishConfig": {
     "access": "public"

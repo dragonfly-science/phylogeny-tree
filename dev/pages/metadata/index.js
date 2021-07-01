@@ -1,15 +1,15 @@
 // require('../polyfill');
-import '@cgps/phylocanvas-plugin-interactions/styles.css';
-import '@cgps/phylocanvas-plugin-context-menu/styles.css';
+import '@mkoliba/phylocanvas-plugin-interactions/styles.css';
+import '@mkoliba/phylocanvas-plugin-context-menu/styles.css';
 
-import createTree from '@cgps/phylocanvas/createTree';
-import { TreeTypes } from '@cgps/phylocanvas/constants';
+import createTree from '@mkoliba/phylocanvas/createTree';
+import { TreeTypes } from '@mkoliba/phylocanvas/constants';
 
 import logPlugin from '../../plugins/log';
 import drawStepsPlugin from '../../plugins/draw-steps';
-import metadataPlugin from '@cgps/phylocanvas-plugin-metadata/index';
-import interactionsPlugin from '@cgps/phylocanvas-plugin-interactions/index';
-import contextMenuPlugin from '@cgps/phylocanvas-plugin-context-menu/index';
+import metadataPlugin from '@mkoliba/phylocanvas-plugin-metadata/index';
+import interactionsPlugin from '@mkoliba/phylocanvas-plugin-interactions/index';
+import contextMenuPlugin from '@mkoliba/phylocanvas-plugin-context-menu/index';
 
 const newick =
 // '(Bovine:0.69395,(Gibbon:0.36079,(Orangutan:0.33636,(Gorilla:0.17147,(Chimp:0.19268,Human:0.11927):0.08386):0.06124):0.15057):0.54939,Mouse:1.21460);'

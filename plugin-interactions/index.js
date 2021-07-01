@@ -1,6 +1,6 @@
 import defaults from './defaults';
 import panzoom from '@thesoulfresh/pan-zoom/src/index';
-import { utils } from '@cgps/phylocanvas';
+import { utils } from '@mkoliba/phylocanvas';
 
 import { createTooltipElement, showTooltip, hideTooltip } from './tooltip';
 

@@ -1,14 +1,14 @@
 // require('../polyfill');
 
-import { TreeTypes } from '@cgps/phylocanvas/constants';
-// import parse from '@cgps/phylocanvas/parse';
-import createTree from '@cgps/phylocanvas/createTree';
+import { TreeTypes } from '@mkoliba/phylocanvas/constants';
+// import parse from '@mkoliba/phylocanvas/parse';
+import createTree from '@mkoliba/phylocanvas/createTree';
 
 import logPlugin from '../../plugins/log';
-// import interactionsPlugin from '@cgps/phylocanvas-plugin-interactions/index';
+// import interactionsPlugin from '@mkoliba/phylocanvas-plugin-interactions/index';
 import interactionsPlugin from '../../../plugin-interactions/index';
 import '../../../plugin-interactions/styles.css';
-// import contextMenu from '@cgps/phylocanvas-plugin-context-menu/index';
+// import contextMenu from '@mkoliba/phylocanvas-plugin-context-menu/index';
 import contextMenu from '../../../plugin-context-menu/index';
 import '../../../plugin-context-menu/styles.css';
 

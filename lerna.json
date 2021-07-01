@@ -1,10 +1,14 @@
 {
-  "lerna": "2.0.0-rc.5",
   "npmClient": "yarn",
   "packages": [
     "dev",
     "phylocanvas",
     "plugin-*"
   ],
-  "version": "3.18.0"
+  "version": "3.18.1",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md"]
+    }
+  }
 }

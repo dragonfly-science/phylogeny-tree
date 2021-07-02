@@ -11,6 +11,12 @@
       "ignoreChanges": [
         "*.md"
       ]
+    },
+    "exec": {
+      "ignore": [
+        "@mkoliba/phylocanvas-plugin-template",
+        "@mkoliba/phylocanvas-dev"
+      ]
     }
   }
 }

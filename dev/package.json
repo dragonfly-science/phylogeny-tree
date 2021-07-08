@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylocanvas-dev",
-  "version": "3.18.0-beta.2",
+  "version": "3.18.0-beta.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@mkoliba/phylocanvas": "^3.18.0-beta.2",
-    "@mkoliba/phylocanvas-plugin-annotations": "^3.18.0-beta.2",
-    "@mkoliba/phylocanvas-plugin-context-menu": "^3.18.0-beta.2",
-    "@mkoliba/phylocanvas-plugin-interactions": "^3.18.0-beta.2",
-    "@mkoliba/phylocanvas-plugin-metadata": "^3.18.0-beta.2",
-    "@mkoliba/phylocanvas-plugin-scalebar": "^3.18.0-beta.2",
+    "@mkoliba/phylocanvas": "^3.18.0-beta.3",
+    "@mkoliba/phylocanvas-plugin-annotations": "^3.18.0-beta.3",
+    "@mkoliba/phylocanvas-plugin-context-menu": "^3.18.0-beta.3",
+    "@mkoliba/phylocanvas-plugin-interactions": "^3.18.0-beta.3",
+    "@mkoliba/phylocanvas-plugin-metadata": "^3.18.0-beta.3",
+    "@mkoliba/phylocanvas-plugin-scalebar": "^3.18.0-beta.3",
     "css-loader": "^0.28.7",
     "raw-loader": "^0.5.1",
     "redux": "^3.6.0",

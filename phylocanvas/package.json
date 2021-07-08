@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylocanvas",
-  "version": "3.18.0-beta.2",
+  "version": "3.18.0-beta.3",
   "description": "Phylogenetic tree visualisation for the web.",
   "main": "dist/index.js",
   "homepage": "https://github.com/mkoliba/phylocanvas3/tree/main/phylocanvas",

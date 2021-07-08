@@ -49,10 +49,12 @@ Parameters:
   - `plugins`: array of Phylocanvas3 Plugins, see plugins section bellow
 
 ## Options
-Properties of options object overide [default options]() properties ({ ...defaultOptions, ...options }) and resulting object is set as initial state of the tree.
+Properties of options object overide [default options](https://github.com/mkoliba/phylocanvas3/blob/main/phylocanvas/defaults.js) properties ({ ...defaultOptions, ...options }) and resulting object is set as initial state of the tree.
 
 Some of available options:
-- `source`
+- `source`: newick tree string, or object `{type: 'biojs', data}` where `data` key contains to biojs-io-newick tree object received from `parser.parse_newick`.
+
+For others check [default options](https://github.com/mkoliba/phylocanvas3/blob/main/phylocanvas/defaults.js) and [examples in dev folder](https://github.com/mkoliba/phylocanvas3/tree/main/dev/pages).
 
 ## Plugins
 Plugins have to have a folowing type:
@@ -60,11 +62,11 @@ Plugins have to have a folowing type:
 ((tree: Tree, decorate: (fnName: string, fn: unknown) => void) => void)[];
 ```
 
-Available plugins in independent npm packages:
-- `contextMenu`
-- `interactionsPlugin`
-- `annotationsPlugin`
-- `metadataPlugin`
-- `scalebarPlugin`
+Available plugins:
+- [`@mkoliba/phylocanvas-plugin-context-menu`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-context-menu): adds context menu 
+- [`@mkoliba/phylocanvas-plugin-interactions`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-interactions): adds interaction features such as zoom, highlight, selection, view of subtree
+- [`@mkoliba/phylocanvas-plugin-scalebar`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-scalebar): adds a scalebar to bottom left corner of canvas for length reference. 
+- [`@mkoliba/phylocanvas-plugin-annotations`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-annotations): adds annotations above leaves
+- [`@mkoliba/phylocanvas-plugin-metadata`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-metadata): adds additional metadata lables and markers next to leaves
 
-### decorator function
+add package to your project using `yarn add` or `npm install -S`

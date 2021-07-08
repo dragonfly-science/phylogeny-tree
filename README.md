@@ -7,10 +7,12 @@ Forked from phylocanvas-3 branch developed by [The Centre for Genomic Pathogen S
 ![Phylocanvas3 example illustration](./illustration.jpg)
 
 ## Packages
-- [`@mkoliba/phylocanvas`](): main package containing visualisation library 
-- [`@mkoliba/phylocanvas-plugin-context-menu`](): adds context menu 
-- [`@mkoliba/phylocanvas-plugin-interactions`](): adds interation features such as zoom, highlight, selection, view of subtree
-- [`@mkoliba/phylocanvas-plugin-scalebar`](): adds a scalebar to bottom left corner of canvas for length reference. 
+- [`@mkoliba/phylocanvas`](https://github.com/mkoliba/phylocanvas3/tree/main/phylocanvas): main package containing visualisation library 
+- [`@mkoliba/phylocanvas-plugin-context-menu`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-context-menu): adds context menu 
+- [`@mkoliba/phylocanvas-plugin-interactions`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-interactions): adds interaction features such as zoom, highlight, selection, view of subtree
+- [`@mkoliba/phylocanvas-plugin-scalebar`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-scalebar): adds a scalebar to bottom left corner of canvas for length reference. 
+- [`@mkoliba/phylocanvas-plugin-annotations`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-annotations): adds annotations above leaves
+- [`@mkoliba/phylocanvas-plugin-metadata`](https://github.com/mkoliba/phylocanvas3/tree/main/plugin-metadata): adds additional metadata lables and markers next to leaves
 
 add package to your project using `yarn add` or `npm install -S`
 

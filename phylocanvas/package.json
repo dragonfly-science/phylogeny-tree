@@ -3,9 +3,11 @@
   "version": "3.18.0-beta.2",
   "description": "Phylogenetic tree visualisation for the web.",
   "main": "dist/index.js",
+  "homepage": "https://github.com/mkoliba/phylocanvas3/tree/main/phylocanvas",
   "repository": {
-    "url": "https://github.com/mkoliba/phylocanvas3",
-    "type": "git"
+    "url": "https://github.com/mkoliba/phylocanvas3.git",
+    "type": "git",
+    "directory": "phylocanvas"
   },
   "scripts": {
     "build": "webpack --config=../webpack.config.js ",

@@ -63,10 +63,10 @@ Plugins have to have a folowing type:
 ```
 
 Available plugins:
-- [`@mkoliba/phylogeny-tree-plugin-context-menu`](https://github.com/mkoliba/phylogeny-treeee/main/plugin-context-menu): adds context menu 
-- [`@mkoliba/phylogeny-tree-plugin-interactions`](https://github.com/mkoliba/phylogeny-treeee/main/plugin-interactions): adds interaction features such as zoom, highlight, selection, view of subtree
-- [`@mkoliba/phylogeny-tree-plugin-scalebar`](https://github.com/mkoliba/phylogeny-treeee/main/plugin-scalebar): adds a scalebar to bottom left corner of canvas for length reference. 
-- [`@mkoliba/phylogeny-tree-plugin-annotations`](https://github.com/mkoliba/phylogeny-treeee/main/plugin-annotations): adds annotations above leaves
-- [`@mkoliba/phylogeny-tree-plugin-metadata`](https://github.com/mkoliba/phylogeny-treeee/main/plugin-metadata): adds additional metadata lables and markers next to leaves
+- [`@mkoliba/phylogeny-tree-plugin-context-menu`](https://github.com/mkoliba/phylogeny-tree/tree/main/plugin-context-menu): adds context menu 
+- [`@mkoliba/phylogeny-tree-plugin-interactions`](https://github.com/mkoliba/phylogeny-tree/tree/main/plugin-interactions): adds interaction features such as zoom, highlight, selection, view of subtree
+- [`@mkoliba/phylogeny-tree-plugin-scalebar`](https://github.com/mkoliba/phylogeny-tree/tree/main/plugin-scalebar): adds a scalebar to bottom left corner of canvas for length reference. 
+- [`@mkoliba/phylogeny-tree-plugin-annotations`](https://github.com/mkoliba/phylogeny-tree/tree/main/plugin-annotations): adds annotations above leaves
+- [`@mkoliba/phylogeny-tree-plugin-metadata`](https://github.com/mkoliba/phylogeny-tree/tree/main/plugin-metadata): adds additional metadata lables and markers next to leaves
 
 add package to your project using `yarn add` or `npm install -S`

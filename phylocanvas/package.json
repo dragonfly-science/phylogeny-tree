@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree",
-  "version": "3.18.0-beta.3",
+  "version": "3.18.0-beta.4",
   "description": "Phylogenetic tree visualisation for the web.",
   "main": "dist/index.js",
   "homepage": "https://github.com/mkoliba/phylogeny-tree/tree/main/phylogeny-tree",

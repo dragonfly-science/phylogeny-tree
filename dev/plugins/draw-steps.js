@@ -1,4 +1,4 @@
-import { Angles, TreeTypes } from '@mkoliba/phylocanvas/constants';
+import { Angles, TreeTypes } from '@mkoliba/phylogeny-tree/constants';
 
 function getNumberOfVisibleLeaves(tree) {
   return tree.nodes.rootNode.visibleLeaves;

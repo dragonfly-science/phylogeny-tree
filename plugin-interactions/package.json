@@ -1,11 +1,11 @@
 {
-  "name": "@mkoliba/phylocanvas-plugin-interactions",
+  "name": "@mkoliba/phylogeny-tree-plugin-interactions",
   "version": "3.18.0-beta.3",
   "description": "",
   "main": "dist/index.js",
-  "homepage": "https://github.com/mkoliba/phylocanvas3",
+  "homepage": "https://github.com/mkoliba/phylogeny-tree",
   "repository": {
-    "url": "https://github.com/mkoliba/phylocanvas3.git",
+    "url": "https://github.com/mkoliba/phylogeny-tree.git",
     "type": "git",
     "directory": "plugin-interactions"
   },
@@ -17,7 +17,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylocanvas": "^3.18.0-beta.3",
+    "@mkoliba/phylogeny-tree": "^3.18.0-beta.3",
     "@thesoulfresh/pan-zoom": "https://github.com/soulfresh/pan-zoom#release/4.1.4"
   },
   "publishConfig": {

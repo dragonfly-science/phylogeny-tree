@@ -29,7 +29,7 @@ module.exports = function (env = {}) {
         path.resolve(__dirname, 'node_modules'),
       ],
       alias: {
-        phylocanvas$: path.resolve(__dirname, 'node_modules', 'phylocanvas', 'index.js'),
+        'phylogeny-tree$': path.resolve(__dirname, 'node_modules', 'phylogeny-tree', 'index.js'),
       },
     },
     output: {

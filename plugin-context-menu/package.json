@@ -1,11 +1,11 @@
 {
-  "name": "@mkoliba/phylocanvas-plugin-context-menu",
+  "name": "@mkoliba/phylogeny-tree-plugin-context-menu",
   "version": "3.18.0-beta.3",
   "description": "",
   "main": "dist/index.js",
-  "homepage": "https://github.com/mkoliba/phylocanvas3",
+  "homepage": "https://github.com/mkoliba/phylogeny-tree",
   "repository": {
-    "url": "https://github.com/mkoliba/phylocanvas3.git",
+    "url": "https://github.com/mkoliba/phylogeny-tree.git",
     "type": "git",
     "directory": "plugin-context-menu"
   },
@@ -17,7 +17,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylocanvas": "^3.18.0-beta.3"
+    "@mkoliba/phylogeny-tree": "^3.18.0-beta.3"
   },
   "publishConfig": {
     "access": "public"

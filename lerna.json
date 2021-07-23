@@ -14,8 +14,8 @@
     },
     "exec": {
       "ignore": [
-        "@mkoliba/phylocanvas-plugin-template",
-        "@mkoliba/phylocanvas-dev"
+        "@mkoliba/phylogeny-tree-plugin-template",
+        "@mkoliba/phylogeny-tree-dev"
       ]
     }
   }

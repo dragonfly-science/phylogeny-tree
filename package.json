@@ -1,13 +1,13 @@
 {
-  "name": "phylocanvas3",
+  "name": "phylogeny-tree-dev",
   "license": "LGPL-3.0-only",
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap --ignore @mkoliba/phylocanvas-plugin-template",
+    "postinstall": "lerna bootstrap --ignore @mkoliba/phylogeny-tree-plugin-template",
     "start": "cd dev && yarn start",
     "clean": "lerna clean",
     "release": "lerna publish",
-    "build": "lerna run build --ignore @mkoliba/phylocanvas-plugin-template",
+    "build": "lerna run build --ignore @mkoliba/phylogeny-tree-plugin-template",
     "link": "lerna exec yarn link"
   },
   "devDependencies": {

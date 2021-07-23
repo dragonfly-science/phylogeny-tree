@@ -1,4 +1,4 @@
-import { constants } from '@mkoliba/phylocanvas';
+import { constants } from '@mkoliba/phylogeny-tree';
 const { Angles } = constants;
 
 export default function (tree, decorate) {

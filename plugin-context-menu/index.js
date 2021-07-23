@@ -1,4 +1,4 @@
-import { utils } from '@mkoliba/phylocanvas';
+import { utils } from '@mkoliba/phylogeny-tree';
 
 import closeMenu from './closeMenu';
 import mergeMenuItems from './mergeMenuItems';

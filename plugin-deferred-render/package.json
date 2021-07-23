@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree-plugin-deferred-render",
-  "version": "3.18.0-beta.4",
+  "version": "3.18.0-beta.5",
   "description": "Phylocanvas plugin to defer tree rendering",
   "main": "dist/phylogeny-tree-plugin-deferred-render.js",
   "scripts": {

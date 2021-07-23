@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree-plugin-annotations",
-  "version": "3.18.0-beta.4",
+  "version": "3.18.0-beta.5",
   "description": "",
   "main": "dist/index.js",
   "homepage": "https://github.com/mkoliba/phylogeny-tree",

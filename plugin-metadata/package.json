@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree-plugin-metadata",
-  "version": "3.18.0-beta.5",
+  "version": "3.18.0-beta.6",
   "description": "",
   "main": "dist/index.js",
   "homepage": "https://github.com/mkoliba/phylogeny-tree",
@@ -17,7 +17,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylogeny-tree": "^3.18.0-beta.4"
+    "@mkoliba/phylogeny-tree": "^3.18.0-beta.6"
   },
   "publishConfig": {
     "access": "public"

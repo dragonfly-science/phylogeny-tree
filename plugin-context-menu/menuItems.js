@@ -1,5 +1,3 @@
-import aboutSection from './about';
-
 import {
   createLeafLabelsLink,
   createSelectedLabelsLink,
@@ -12,32 +10,32 @@ export function createTreeMenuItems() {
     [
       {
         text: 'Show labels',
-        handler: tree => tree.toggleLeafLabels(),
-        isActive: tree => tree.state.renderLeafLabels,
+        handler: (tree) => tree.toggleLeafLabels(),
+        isActive: (tree) => tree.state.renderLeafLabels,
       },
       {
         text: 'Align labels',
-        handler: tree => tree.toggleAlignLeafLabels(),
-        isActive: tree => tree.state.alignLabels,
+        handler: (tree) => tree.toggleAlignLeafLabels(),
+        isActive: (tree) => tree.state.alignLabels,
       },
     ],
-  
+
     [
       {
         text: 'Fit in panel',
-        handler: tree => tree.fitInPanel(),
+        handler: (tree) => tree.fitInPanel(),
       },
       {
         text: 'Expand collapsed subtrees',
-        visible: tree => tree.state.collapsedIds.length > 0,
-        handler: tree => tree.resetCollapsedNodes({ refit: true }),
+        visible: (tree) => tree.state.collapsedIds.length > 0,
+        handler: (tree) => tree.resetCollapsedNodes({ refit: true }),
       },
       {
         text: 'Redraw original tree',
-        handler: tree => tree.setSource(tree.nodes.originalSource),
+        handler: (tree) => tree.setSource(tree.nodes.originalSource),
       },
     ],
-  
+
     [
       (tree, node) => createLeafLabelsLink(tree, node, 'Export leaf labels'),
       (tree, node) =>
@@ -45,21 +43,18 @@ export function createTreeMenuItems() {
       (tree, node) => createNewickLink(tree, node, 'Export as newick file'),
       (tree, node) => createImageLink(tree, node, 'Export as image'),
     ],
-  
-    [aboutSection()],
   ];
   return treeMenuItems;
 }
 
-
-export function createNodeMenuItems () {
+export function createNodeMenuItems() {
   const nodeMenuItems = [
     [
       {
-        text: (tree, node) => (
-          tree.state.collapsedIds.indexOf(node.id) === -1 ?
-            'Collapse subtree' : 'Expand subtree'
-        ),
+        text: (tree, node) =>
+          (tree.state.collapsedIds.indexOf(node.id) === -1
+            ? 'Collapse subtree'
+            : 'Expand subtree'),
         handler: (tree, node) => tree.collapseNode(node, { refit: true }),
       },
       {
@@ -85,8 +80,6 @@ export function createNodeMenuItems () {
       (tree, node) =>
         createNewickLink(tree, node, 'Export subtree as newick file'),
     ],
-
-    [aboutSection()],
   ];
   return nodeMenuItems;
 }

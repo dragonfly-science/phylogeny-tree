@@ -10,6 +10,7 @@
     "exec": {
       "ignore": [
         "@mkoliba/phylogeny-tree-plugin-template",
+        "@mkoliba/phylogeny-tree-plugin-deferred-render",
         "@mkoliba/phylogeny-tree-dev"
       ]
     }

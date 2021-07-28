@@ -6,8 +6,7 @@
   "homepage": "https://github.com/mkoliba/phylogeny-tree",
   "repository": {
     "url": "https://github.com/mkoliba/phylogeny-tree.git",
-    "type": "git",
-    "directory": "phylocanvas"
+    "type": "git"
   },
   "scripts": {
     "build": "webpack --config='../webpack.config.js' ",

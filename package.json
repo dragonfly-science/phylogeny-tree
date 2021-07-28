@@ -5,7 +5,7 @@
   "scripts": {
     "postinstall": "lerna bootstrap --ignore @mkoliba/phylogeny-tree-plugin-template",
     "start": "cd dev && yarn start",
-    "clean": "lerna clean",
+    "clean": "lerna clean && lerna exec -- rimraf dist/",
     "release": "lerna publish",
     "build": "lerna run build --ignore @mkoliba/phylogeny-tree-plugin-template",
     "link": "lerna exec yarn link"
@@ -15,7 +15,8 @@
     "@babel/preset-env": "7.14.7",
     "babel-loader": "8.2.2",
     "eslint-config-cgps": "github:cgps-dev/eslint-config-cgps#v2.0.0",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "webpack": "^4.37.0",

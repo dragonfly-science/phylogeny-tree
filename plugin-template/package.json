@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree-plugin-template",
-  "version": "3.18.0-beta.6",
+  "version": "3.18.0-beta.7",
   "description": "",
   "main": "dist/index.js",
   "homepage": "https://github.com/mkoliba/phylogeny-tree",
@@ -16,7 +16,7 @@
   "author": "The Centre for Genomic Pathogen Surveillance",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylogeny-tree": "^3.18.0-beta.6"
+    "@mkoliba/phylogeny-tree": "^3.18.0-beta.7"
   },
   "private": true
 }

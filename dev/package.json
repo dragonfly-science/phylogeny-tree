@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree-dev",
-  "version": "3.18.0-beta.6",
+  "version": "3.18.0-beta.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@mkoliba/phylogeny-tree": "^3.18.0-beta.6",
-    "@mkoliba/phylogeny-tree-plugin-annotations": "^3.18.0-beta.6",
-    "@mkoliba/phylogeny-tree-plugin-context-menu": "^3.18.0-beta.6",
-    "@mkoliba/phylogeny-tree-plugin-interactions": "^3.18.0-beta.6",
-    "@mkoliba/phylogeny-tree-plugin-metadata": "^3.18.0-beta.6",
-    "@mkoliba/phylogeny-tree-plugin-scalebar": "^3.18.0-beta.6",
+    "@mkoliba/phylogeny-tree": "^3.18.0-beta.7",
+    "@mkoliba/phylogeny-tree-plugin-annotations": "^3.18.0-beta.7",
+    "@mkoliba/phylogeny-tree-plugin-context-menu": "^3.18.0-beta.7",
+    "@mkoliba/phylogeny-tree-plugin-interactions": "^3.18.0-beta.7",
+    "@mkoliba/phylogeny-tree-plugin-metadata": "^3.18.0-beta.7",
+    "@mkoliba/phylogeny-tree-plugin-scalebar": "^3.18.0-beta.7",
     "css-loader": "^0.28.7",
     "raw-loader": "^0.5.1",
     "redux": "^3.6.0",

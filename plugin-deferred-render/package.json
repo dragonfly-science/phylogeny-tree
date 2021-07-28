@@ -1,6 +1,6 @@
 {
   "name": "@mkoliba/phylogeny-tree-plugin-deferred-render",
-  "version": "3.18.0-beta.6",
+  "version": "3.18.0-beta.7",
   "description": "@mkoliba/phylogeny-tree plugin to defer tree rendering",
   "main": "dist/phylogeny-tree-plugin-deferred-render.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "@mkoliba/phylogeny-tree": "^3.18.0-beta.6"
+    "@mkoliba/phylogeny-tree": "^3.18.0-beta.7"
   },
   "private": true
 }

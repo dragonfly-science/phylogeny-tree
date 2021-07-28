@@ -1,7 +1,7 @@
 # phylogeny-tree
-Javascript phylogeny visualisation library for Newick tree format.
+Javascript phylogeny visualisation library for Newick tree format. It handles up to ~15 000 leaves.
 
-Forked from phylocanvas-3 development branch of Phylocanvas developed by [The Centre for Genomic Pathogen Surveillance](https://www.pathogensurveillance.net/)
+Forked from `phylocanvas-3` the development branch of Phylocanvas, developed by [The Centre for Genomic Pathogen Surveillance](https://www.pathogensurveillance.net/).
 
 Examples of usage are in `dev/pages` folder.
 

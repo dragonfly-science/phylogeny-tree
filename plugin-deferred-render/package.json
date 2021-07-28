@@ -1,7 +1,7 @@
 {
   "name": "@mkoliba/phylogeny-tree-plugin-deferred-render",
   "version": "3.18.0-beta.6",
-  "description": "Phylocanvas plugin to defer tree rendering",
+  "description": "@mkoliba/phylogeny-tree plugin to defer tree rendering",
   "main": "dist/phylogeny-tree-plugin-deferred-render.js",
   "scripts": {
     "build": "webpack --config='../webpack.config.js'",
@@ -13,7 +13,5 @@
   "dependencies": {
     "@mkoliba/phylogeny-tree": "^3.18.0-beta.6"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "private": true
 }

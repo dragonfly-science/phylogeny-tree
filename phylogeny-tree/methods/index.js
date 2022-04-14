@@ -5,6 +5,7 @@ import changeScale from './changeScale';
 import changeStepScale from './changeStepScale';
 import collapseNode from './collapseNode';
 import destroy from './destroy';
+import drawBGLayer from './drawBGLayer';
 import drawHighlight from './drawHighlight';
 import drawNode from './drawNode';
 import drawNodeShape from './drawNodeShape';
@@ -61,6 +62,7 @@ export default {
   changeStepScale,
   collapseNode,
   destroy,
+  drawBGLayer,
   drawHighlight,
   drawNode,
   drawNodeShape,

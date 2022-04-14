@@ -8,6 +8,7 @@ export default function (tree) {
   const t0 = performance.now();
 
   tree.preRender(layout);
+  tree.drawBGLayer(layout);
 
   if (tree.state.styleNodeLines) {
     for (const node of layout.postorderTraversal) {
